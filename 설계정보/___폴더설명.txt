@@ -1,0 +1,10 @@
+2002.10.28
+CDlgVirtualFolder2 추가. FTP정보 입력 받도록
+CMemoTreeCtrl::AddDir과
+CMemoTreeCtrl::GetPathFromNode 추가
+
+GetPathFromNode가 사용되는 곳은 아래 메모를 참조
+
+2002.11.2
+AddDir에서 CFileFind대신 FindFirstFile로 교체. FTPFindFirstFile과 궁합이 안맞으므로
+Rename시에 파일명 앞에 \ 붙는 문제 체크

@@ -1,0 +1,20 @@
+GetPathFromNode가 사용되는 function
+SelChanged
+Itemexpand
+Windowproc - UM_ITEMDROPTED *2
+OnMemoNewMemo
+OnMemoNewFolder
+CheckConfirmNewName
+OnDelete
+OnRefresh
+doFileMruMemo
+
+D:\dev\MyWork\MyMemo\LeftView.cpp(431):	str = m_memoTree.GetPathFromNode(hItem, this, NULL, NULL, &pVFL);
+D:\dev\MyWork\MyMemo\LeftView.cpp(512):		CString strSrc = m_memoTree.GetPathFromNode((HTREEITEM)wParam, this);
+D:\dev\MyWork\MyMemo\LeftView.cpp(513):		CString strTgt = m_memoTree.GetPathFromNode((HTREEITEM)lParam, this);
+D:\dev\MyWork\MyMemo\LeftView.cpp(710):	CString strSrc = m_memoTree.GetPathFromNode((HTREEITEM)hchildItem, this, &ext); //CString 매개변수를 추가로 주어야 메모일 경우 확장자를 포함하여 얻어온다.
+D:\dev\MyWork\MyMemo\LeftView.cpp(770):	CString strSrc = m_memoTree.GetPathFromNode((HTREEITEM)hchildItem, this);
+D:\dev\MyWork\MyMemo\LeftView.cpp(793):		CString strSrc = m_memoTree.GetPathFromNode((HTREEITEM)m_NowEditingItem, this, &ext);
+D:\dev\MyWork\MyMemo\LeftView.cpp(857):			CString strSrc = m_memoTree.GetPathFromNode((HTREEITEM)hItem, this, &ext);
+D:\dev\MyWork\MyMemo\LeftView.cpp(1048):		CString strSrc = m_memoTree.GetPathFromNode(hItem, this);
+D:\dev\MyWork\MyMemo\LeftView.cpp(1085):		strSrc = m_memoTree.GetPathFromNode(hItem, this);

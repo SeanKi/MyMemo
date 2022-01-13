@@ -1,0 +1,20 @@
+전체 클래스
+CAboutDlg - 프로그램 정보
+CDirNFile - 파일, Dir 처리 기본 클래스
+CDlgVirtualFolder - 가상폴더 
+CLabel - 확장된 Label 클래스
+CLeftView - Left Tree Pane
+메모 추가 삭제 이름변경
+메모 디렉토리(virtual folder) 목록 저장
+CMainFrame
+CMemoTreeCtrl
+CMyMemoApp
+CMyMemoDoc
+최근메모 와 설정 저장
+현재 메모 path
+CMyMemoView
+CParseKi
+CProfilePrivate
+CTreeViewExt
+MemoList
+ViewFileList

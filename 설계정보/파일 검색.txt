@@ -1,0 +1,20 @@
+가상경로를 넣으면 하부 폴더에서 관련된 내용을 찾는다.
+vector에 찾은 내용이 있는 줄 string을 리턴
+
+구조체에는 찾은 메모의 가상경로, 찾은 줄의 내용와 라인수
+
+
+입력:
+가상경로를 다중으로 입력받을 수 있게 백터로
+
+Search(VirtualPath :, bsubdir)
+
+struct SearchLineStruct {
+LineIdx : int
+LineString : string 
+}
+
+struct MemoSearchStruct {
+VirtualPath : string
+SearchLines : vector <SearchLineStruct>
+}

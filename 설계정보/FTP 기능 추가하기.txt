@@ -1,0 +1,21 @@
+메모, 폴더 출력하기
+메모, 폴더 내용 출력하기
+
+
+새메모만들기
+OnMemoNewVirtual
+
+InsertItem들어가는 함수
+OnMemoNewVirtual
+fUpdateVirtualFolders
+ID_CLOSEDFOLDER, ID_VIRTUAL_L, ID_TEXT_FILE
+
+InitLeftView 
+ini환경 변수에서 Virtual Folder정보를 읽어 FTP의 경우 커넥션까지
+
+열려 있는 FTP Connect닫기를 ~CLeftView에 추가, 환경변수 저장시 임시로생성한 ROot의 VFL은 제외처리
+
+CreateDirectory에도 적용
+이름 변경에도 적용
+
+해야 할 것, - 메모 이동, 복사(UM_ITEMDROPED)

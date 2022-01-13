@@ -1,0 +1,68 @@
+MyMemo.ini
+[WINDOW]
+x=213
+y=181
+cx=729
+cy=330
+treeW=196 
+;treeW 트리패인의 넓이
+[IMM]
+mode=HAN
+[Settings]
+WordWrap=1
+;ToolBar StatusBar Visible 여부
+;ToolBar=0
+;StatusBar=1
+;BgColor
+;FontColor
+;최근메모리스트의 표시 갯수
+;MaxViewOfRecentMemoList=8
+;최근메모리스트의 저장 갯수
+;MaxRestoreOfRML=100
+;0:자동저장 안함, 1~ 1초 단위로 자동 저장 간격을 지정
+;AutoSave=0
+;지우기모드- 1:쓰레기통에 0:영구삭제
+;TrashMode=0
+[Font]
+Height=-13
+CharSet=129
+PitchAndFamily=49
+FaceName=굴림체
+;Root
+[ROOT]
+;name=메모
+;path=D:\MyData\
+;VirtualFolder 목록
+[VIRTUAL_F_0]
+name=기본 
+path=D:\MyData\jwdatabook\BookData
+[VIRTUAL_F_1]
+name=MyWork
+path=D:\dev\MyWork
+[VIRTUAL_F_2]
+name=나의 개발 홈페이지
+path=C:\OkStart Group\htdocs\MyDevWeb
+;최근 메모 리스트
+[MEMO_MRULIST]
+0=dev\MyWork\MyMemo
+1=MyWork\MyMemo\New Memo 1
+2=MyWork\MyMemo\MyMemo구조
+3=MyWork\MyMemo\Todo
+4=MyWork
+5=MyWork\MyMemo
+6=MyWork\MyMemo\MyMemo
+7=MyWork\MyMemo\Release
+8=
+
+[VIRTUAL_F_3]
+name=dev
+path=D:\dev
+[VIRTUAL_F_4]
+name=프린트21 홈페이지
+path=C:\Inetpub\wwwroot\order_tst
+[VIRTUAL_F_5]
+name=
+path=
+[VIRTUAL_F_6]
+name=
+path=

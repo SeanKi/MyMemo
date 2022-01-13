@@ -1,0 +1,14 @@
+DHTMLEd.ocx에서
+DHTMLSafe또는 DHTMLEdit를 사용
+SetDocumentHTML로 내용쓰기
+GetDocumentHTML로 내용 가져오기
+글자에 효과주기는 다음과 같이 ExecCommand를 사용
+tbContentElement는 DHTMLEdit가 세팅되어 있다.
+BOLD체
+  tbContentElement.ExecCommand(DECMD_BOLD,OLECMDEXECOPT_DODEFAULT);
+  tbContentElement.focus();
+
+글자 크기
+  tbContentElement.ExecCommand(DECMD_SETFONTSIZE, OLECMDEXECOPT_DODEFAULT, parseInt(FontSize.value));
+  tbContentElement.focus();
+

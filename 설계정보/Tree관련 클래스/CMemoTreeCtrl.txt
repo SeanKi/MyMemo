@@ -1,0 +1,12 @@
+	void RefreshFolderItem(HTREEITEM hItem, CString strPath);
+	HTREEITEM FindItem(HTREEITEM hItem, LPCTSTR szBuf);
+	BOOL FindItemByVirtualPath(CString sPath, HTREEITEM * hItem);
+	CString GetPathFromNode(HTREEITEM hItem, VOID * leftView, CString *ext=NULL, CString *sVirtualPath=NULL);
+	int DelDir(HTREEITEM hItem, CString &strPath);
+	void Init(CTreeCtrl * treeCtrl);
+	CMemoTreeCtrl();
+	virtual ~CMemoTreeCtrl();
+	BOOL SetButtonState(HTREEITEM hItem, CString strPath);
+	void DeleteFirstChild(HTREEITEM hParent);
+	void DeleteAllChildren(HTREEITEM hParent);
+	int AddDir(HTREEITEM hItem, CString strPath, int iSortMode);

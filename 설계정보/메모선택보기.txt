@@ -1,0 +1,11 @@
+CLeftView::
+
+CTreeViewExt::OnSelchanged
+-> CLeftView::SelChanged
+ - CMyMemoView::OpenViewFile를 실행시켜서 파일을 열고 보여준다.
+
+"\\"를 쓰는 곳 처리 안한 곳 CheckConfirmNewName
+
+2002.11.2
+선택시 화면에 FIle읽어서 보여주는 부분 처리
+선택시 아이템 뿌려주기는?
